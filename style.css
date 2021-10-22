@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100vh;
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #a99185;
+    text-transform: capitalize;
+}
+.logo{
+    height: 60px;
+    padding: 2px 10px;
+
+}
+.icon-bar{
+    background: rgb(171, 171, 255);
+}
+li a{
+    color: #333;
+}
+.big-text{
+    font-size: 52px;
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+}
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+a.btn-first{
+    background-color: rgb(149, 149, 255);
+    color: #fff;
+
+}
+a.btn-second{
+    background-color: rgb(134, 134, 246);
+    border: 1px solid #efefef;
+    color: rgb(255, 255, 255);
+}
+a.btn:hover{
+    background:  rgb(2, 171, 255);
+    border: none ;
+    box-shadow: 5px 5px 10px rgb(2, 171, 255);
+    transition: 0.2s;
+}
